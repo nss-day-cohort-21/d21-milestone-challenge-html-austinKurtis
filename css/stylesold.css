@@ -1,0 +1,142 @@
+/*********************
+	COLOR SCHEME
+********************
+	DARK BLUE
+	#013859
+	rgb(1, 56, 89)
+
+	LIGHTER BLUE
+	#19646B
+	rgb(25, 100, 107)
+
+	MID GREY BLUE
+	#515D5D
+	rgb(81, 93, 93)
+		MID GREY BLUE Dark
+		#3B4343
+		rgb(59, 67, 67)
+		MID GREY BLUE LIGHT
+		#CBE9E9
+		rgb(203, 233, 233)
+	RED
+	#7A1313
+	rgb(122, 19, 19)
+*/
+
+/* ********************
+	  	ONTS
+	********************
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Droid Sans', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+
+	**** Major Font ****
+		Titillium Web
+
+	**** Bio Font ****
+		Droid Sans
+
+	**** Blog font ****
+	Open Sans Condensed
+
+
+****************************/
+/*
+/* ***** HTML TAGS ***** */
+
+/*
+body {
+	background-color: #3B4343;
+}
+header {
+	background-color: #013859;
+}
+h1 {
+	font-family: 'Titillium Web', sans-serif;
+	color: #CBE9E9;
+	text-align: center;
+	font-size: 3em;
+}
+a {
+	text-decoration: none;
+	color: #19646B
+}
+
+li {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.2em;
+}
+*/
+/* ***** IDs ***** */
+/*
+#bio {
+	font-family: 'Droid Sans', sans-serif;
+	color: #7A1313;
+	font-size: 1.2em;
+	background-color: #515D5D;
+	text-align: center;
+	height: 200px;
+	flex-grow: 5;
+}
+
+#links {
+
+}
+
+#blog {
+	font-family: 'Open Sans Condensed', sans-serif;
+
+	color: 
+}
+*/
+
+/* ***** CLASSES ***** */
+/* container inside the body */
+
+.wrapper {
+
+}
+
+/* ***** FLEX BOXES ***** */
+/* Flex Container */
+.navi {
+	display: flex;
+	width: 100%;
+	color: white;
+	flex-direction: row;
+}
+/* Navigation Flext box */
+
+.fLink {
+	background-color: black;
+	list-style-type: none;
+	width: 300px;
+	height: 100px;
+}
+.profile {
+	display: flex;
+	justify-content: center;
+	background-color: #CBE9E9;
+	height: 200px;
+
+
+}
+.profileParts {
+	width: 50%;
+	margin: 0 20px;
+	padding: 0 5px;
+}
+.profilePic {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	align-content: right;	
+}
+
+#blog {
+	display: flex;
+}
+
+.blogPost {
+
+}
